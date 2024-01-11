@@ -1,0 +1,124 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+:root {
+	--color-1: #2f3033;
+	--color-2: #fb8cf9;
+}
+
+body {
+	background-image: url('/img/praia1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	overflow: inherit;
+	background-attachment: fixed;
+}
+
+
+
+header {
+	#navbar {
+
+		background: #4169E1;
+		padding: 20px 10px 20px 10px;
+	
+	}
+	
+	.nav-item {
+	
+		font-size: 23px;
+		font-family: 'Times New Roman', Times, serif;
+	
+	
+	
+	}
+	
+}
+main {
+	width: 70%;
+	min-height: 100vh;
+	background-color: #2f3033da;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	
+}
+
+header img {
+	height: 70px;
+}
+
+ul {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+}
+
+li {
+	list-style: none;
+	padding: 0 20px 0 20px;
+}
+
+a {
+	text-decoration: none;
+	font-size: larger;
+	font-weight: 400;
+	color: #fff;
+	transition: 0.5s;
+}
+
+a:hover {
+	text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 12px #fff, 0 0 16px #fb8cf9,
+		0 0 18px #fb8cf9, 0 0 22px #fb8cf9, 0 0 32px #fb8cf9, 0 0 42px #fb8cf9;
+}
+
+
+.footer {
+	
+	background-color: #333;
+	padding: 10px;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100% ;
+
+
+
+	
+}
+#rodape {
+
+	background-color: #333;
+	color: #fff;
+	margin: 10px;
+	font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+.footer h4 {
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+
+.footer-link {
+	color: #007BFF;
+	font-size: 24px;
+	text-decoration: none;
+	margin-right: 10px;
+	transition: color 0.3s;
+}
+
+.footer-link:hover {
+	color: #0056b3;}
